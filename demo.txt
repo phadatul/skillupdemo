@@ -1,14 +1,1 @@
-Uploading a dummy file
-I am making a change.....
-This is another change
-hello world
-
-this is one line on main branch
-
-this is test branch's 5th line
-i am adding 9th line
-
-
-this is from vscode
-1
-
+kubectl apply -f https://raw.githubusercontent.com/phadatul/skillupdemo/main/first.yml
