@@ -1,1 +1,2 @@
 kubectl apply -f https://raw.githubusercontent.com/phadatul/skillupdemo/main/first.yml
+kubectl apply -f https://raw.githubusercontent.com/phadatul/skillupdemo/main/myservice.yaml
