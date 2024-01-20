@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: app-config
+  name: atul-config
 data:
  port: "3000"
  language: "english"
- environments: production, development, production
+ environments: production, development, regression
