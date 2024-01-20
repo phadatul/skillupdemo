@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: atul-nginx
+spec:
+  selector:
+    matchLabels:
+      app: atul
+  template:
+    metadata:
+      labels:
+        app: atul
+    spec:
+      containers:
+      - name: atul
+        image: nginx:1.14.2
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
