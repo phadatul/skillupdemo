@@ -13,3 +13,8 @@ Create rs for pods with replicas=2
 Do it using individual yml files 
 Do it as a single deployment
 
+PROBLEM STATEMENT 2:
+1)Run mysql pod in your cluster. Declare all environment variables in side yml file
+
+2)Run mysql pod in cluster, use configmap for environment variables.
+
