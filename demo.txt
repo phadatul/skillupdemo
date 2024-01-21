@@ -5,7 +5,7 @@ k apply -f https://raw.githubusercontent.com/phadatul/skillupdemo/main/demo-serv
 
 PROBLEM STATEMENT
 
-We will run a pod with simple http server but port numbers  should come from config-map, 
+We will run a pod with simple http server but port numbers  should come from config-map (not possible via config map / may be done using come alternative like .proeprties local file or EL but not recommended, so please use hard-coded value), 
 Create two services out of it of type nodePort and clusterIP (use config map for ports)
 
 Create rs for pods with replicas=2
