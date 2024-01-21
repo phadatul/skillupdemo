@@ -1,6 +1,8 @@
 kubectl apply -f https://raw.githubusercontent.com/phadatul/skillupdemo/main/first.yml
 kubectl apply -f https://raw.githubusercontent.com/phadatul/skillupdemo/main/myservice.yaml
 
+k apply -f https://raw.githubusercontent.com/phadatul/skillupdemo/main/demo-service.yaml
+
 PROBLEM STATEMENT
 
 We will run a pod with simple http server but port numbers  should come from config-map, 
